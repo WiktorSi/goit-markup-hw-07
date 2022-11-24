@@ -1,0 +1,20 @@
+.customer-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.customer-card__view {
+    all: unset;
+    display: block;
+    padding: 17.71px 32px 14.25px 32px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.customer-card__view:hover {
+    border-color: #2196F3;
+    --color2: #2196f3;
+    --color5: #2196f3;
+    cursor: pointer;
+}

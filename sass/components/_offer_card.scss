@@ -1,0 +1,28 @@
+.offer-card {
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+
+.offer-card__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+
+}
+
+.offer-card__description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.offer-card__icon {
+    all: unset;
+    display: block;
+    margin: 0 auto;
+    padding: 25px 0;
+}

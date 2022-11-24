@@ -1,0 +1,39 @@
+.social-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 72px;
+    padding-left: 70px;
+}
+
+.social-part__title {
+    box-sizing: content-box;
+    display: flex;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    padding-bottom: 20px;
+}
+
+.social-part__view {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.social-part__icon {
+    display: flex;
+    --color4: #FFFFFF1A;
+    --color5: #ffffff;
+    cursor: pointer;
+    &:hover,&:focus{
+        display: flex;
+        --color4: #2196f3;
+    }
+}

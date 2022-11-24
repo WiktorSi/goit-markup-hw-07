@@ -1,0 +1,18 @@
+.slider {
+    background-image: linear-gradient(#ffffff30, #2F303A66), url(../images/Office.jpg);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider__title {
+    box-sizing: content-box;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 696px;
+    height: 120px;
+    padding: 200px 237px 280px;
+}
